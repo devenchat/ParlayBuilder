@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+		<head>
+			<title>ParlayBuilder</title>
+			<link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+			<link rel="stylesheet" type="text/css" href="stylesheet.css">
+			<meta charset="UTF-8">
+			<meta name="author" content="Deven Chatterjee">
+			<meta name="keywords" content="HTML, CSS, JavaScript, Basketball, Betting">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<script src="script.js"></script>
+		</head>
+		
+		<body>
+		
+		<div class="header">
+			<h1 style="color:white;"> ParlayBuilder </h1>
+		</div>
+		
+		<div class="nav_menu">
+			<a href = "#">3 GAME PARLAY</a>
+			<a href = "#">4 GAME PARLAY</a>
+			<a href = "#">5 GAME PARLAY</a>
+			<!--<button> 3 GAME PARLAY </button>
+			<button> 4 GAME PARLAY </button>
+			<button> 5 GAME PARLAY </button>-->
+			<br></br>
+		</div>
+
+		<div class="row">
+			
+			<div class = "columnA">
+				<div id="wg-api-basketball-games"
+					data-host="api-basketball.p.rapidapi.com"
+					data-key="6ca6161e18msh6899cc44a811f05p19b319jsnb3e00ba8c38a"
+					data-date=""
+					data-league="12"
+					data-season="2022-2023"
+					data-theme=""
+					data-refresh="1000"
+					data-show-toolbar="true"
+					data-show-errors="false"
+					data-show-logos="true"
+					data-modal-game="true"
+					data-modal-standings="true"
+					data-modal-show-logos="true">
+				</div>
+				<script
+					type="module"
+					src="https://widgets.api-sports.io/2.0.3/widgets.js">
+				</script>
+
+			</div>
+			
+			<div class = "columnB">
+				<iframe width="400" height="300" src="https://www.youtube.com/embed/eh_gw0dnMw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p><a href="https://www.mlb.com/standings">Click here to see the current MLB standings</a></p>
+				<br>
+			</div>
+			
+			<div class = "columnC">
+				
+			</div>
+		</div>
+		<footer>
+			<div class = "footer">
+					<a href= "mailto: devenchat@yahoo.com"> CONTACT ME </a>
+			</div>
+		</footer>
+	</body>
+
+</html>
